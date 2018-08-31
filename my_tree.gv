@@ -1,0 +1,14 @@
+digraph G {
+	subgraph cluster_0 {
+		com;
+	}
+	subgraph cluster_1 {
+		dlt;
+	}
+	subgraph cluster_2 {
+		dlp;
+	}
+
+	com -> dlt;
+	dlt -> dlp;
+}
